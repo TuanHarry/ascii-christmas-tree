@@ -1,6 +1,16 @@
 # ASCII Christmas Tree & Split-Screen Reel Generator (Single-File Edition)
 
-All-in-one Python script ([christmas_tree.py](christmas_tree.py)) combining an interactive 3D ASCII Christmas Tree window (`pygame` + `numpy` + `opencv`), a procedural 80s synth-pop / music-box soundtrack generator, and a vertical 9:16 split-screen MP4 Reel exporter (`1080×1920 @ 30fps`) with live scrolling syntax-highlighted source code.
+All-in-one Python script ([main.py](main.py)) combining an interactive 3D ASCII Christmas Tree window (`pygame` + `numpy` + `opencv`), a procedural 80s synth-pop / music-box soundtrack generator, and a vertical 9:16 split-screen MP4 Reel exporter (`1080×1920 @ 30fps`) with live scrolling syntax-highlighted source code.
+
+## Preview
+
+| 3D ASCII Scene (Santa, Walkers & Aurora) | 4 Color Palettes (`classic`, `cyberpunk`, `frozen`, `gold`) |
+| :---: | :---: |
+| ![3D Classic View](assets/preview_classic.png) | ![Color Palettes](assets/preview_themes.png) |
+
+<p align="center">
+  <img src="assets/preview_split.png" alt="Live Split-Screen & Audio Spectrum Visualizer" width="540" />
+</p>
 
 ## Features
 
@@ -8,6 +18,7 @@ All-in-one Python script ([christmas_tree.py](christmas_tree.py)) combining an i
   - 25 whorls of drooping pine branches dusted with snow tips and dark inner-cone occlusion.
   - Textured bark trunk, 3.6-turn golden tinsel swags, 34 red/gold/silver baubles, and 170 twinkling branch-tip fairy lights.
   - 6 wrapped 3D gift boxes with crossed ribbons and bow loops orbiting around the base, plus a **3D Snowman** (with red scarf, carrot nose, and top hat).
+  - **Animated 3D Winter Walkers & Santa's Reindeer Sleigh**: Two winter characters walk in from both sides holding glowing lanterns and wave at the tree, while **Santa Claus and his galloping reindeer (led by Rudolph)** dash across the snowy foreground trailing magic stardust.
   - 5-pointed glowing top star with 8-way rays that bursts white at `t = 11.8s` and launches **240 3D starburst firework sparkles** around the canopy.
   - Shimmering **Aurora Borealis** curtains, twinkling starry sky, falling snowflakes, perspective ground grid, multi-scale additive bloom, and typed holiday greeting (`M E R R Y   C H R I S T M A S   2 0 2 6`).
   - **4 Color Palettes**: Switch instantly between `classic`, `cyberpunk`, `frozen`, and `gold`.
